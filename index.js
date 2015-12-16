@@ -1,14 +1,16 @@
 var finalTemplates = [
-  function() { return "you have " + getAbstractProperty(); },
   function() { return "you are " + getDescriptor(); },
-  function() { return "this is " + getDescriptor(); },
+  function() { return "you have " + getAbstractProperty(); },
 ];
 
 var templates = [
-  function() { return "i've always thought " + getFinalTemplate(); },
   function() { return "9 out of 10 doctors say " + getFinalTemplate(); },
-  function() { return "people say " + getFinalTemplate(); },
   function() { return "i think " + getFinalTemplate(); },
+  function() { return "i've always thought " + getFinalTemplate(); },
+  function() { return "i've heard " + getFinalTemplate(); },
+  function() { return "it's true, " + getFinalTemplate(); },
+  function() { return "people say " + getFinalTemplate(); },
+  function() { return "they say " + getFinalTemplate(); },
 ].concat(finalTemplates);
 
 var abstractProperties = [
@@ -17,34 +19,62 @@ var abstractProperties = [
 ];
 
 var tangibleSingularProperties = [
-  "heart",
-  "soul",
   "demeanour",
-  "voice",
-  "radiance",
   "face",
+  "fashion sense",
+  "hair",
+  "heart",
+  "laugh",
+  "little toe",
+  "outlook on life",
+  "radiance",
+  "smile",
+  "soul",
+  "voice",
   "way of thinking",
+  "work ethic",
 ];
 
 var tangibleMultipleProperties = [
-  "eyes",
-  "thoughts",
-  "knees",
   "ears",
+  "eyes",
+  "feet",
+  "hands",
   "ideas",
+  "knees",
+  "legs",
   "skills",
+  "teeth",
+  "thoughts",
 ];
 
 var adjectives = [
-  "beautiful",
-  "nice",
-  "pretty",
+  "adorable",
+  "amazeballs",
+  "amazing",
+  "angelic",
   "attractive",
-  "radiant",
-  "perfect",
-  "useful",
+  "beautiful",
+  "charming",
+  "crazy",
+  "dreamy",
+  "handsome",
   "incredible",
+  "insane",
+  "majestic",
+  "marvelous",
+  "nice",
+  "perfect",
   "pleasing",
+  "pretty",
+  "radiant",
+  "splendid",
+  "stunning",
+  "sublime",
+  "superb",
+  "sweet",
+  "useful",
+  "wowzers",
 ];
 
 var adverbs = [
@@ -71,9 +101,11 @@ var adverbs = [
   "simply",
   "so",
   "somewhat",
+  "supremely",
   "terribly",
   "thoroughly",
   "totally",
+  "totes",
   "utterly",
   "very",
   "virtually",
