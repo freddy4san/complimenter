@@ -3,7 +3,7 @@ Complimenter
 
 9 out of 10 doctors say you have practically radiant knees.
 
-This is a fork of [deoxxa/complimenter](http://github.com/deoxxa/complimenter) with a whole load of new words added.
+This is a fork of [deoxxa/complimenter](http://github.com/deoxxa/complimenter) with a whole load of new words added. It can be used as a node module or use the rest api on [https://complimentr.com](https://complimentr.com)
 
 Overview
 --------
@@ -38,6 +38,12 @@ License
 
 Contact
 -------
+
+### grantcodes
+
+[https://grant.codes](https://grant.codes)
+
+### deoxxa
 
 * GitHub ([deoxxa](http://github.com/deoxxa))
 * Twitter ([@deoxxa](http://twitter.com/deoxxa))
