@@ -23,6 +23,7 @@ var abstractProperties = [
 ];
 
 var tangibleSingularProperties = [
+  "ass",
   "belly button",
   "booty",
   "bum",
@@ -50,6 +51,7 @@ var tangibleSingularProperties = [
   "right hand",
   "smile",
   "soul",
+  "tongue",
   "tush",
   "tushie",
   "voice",
@@ -163,7 +165,6 @@ var adjectives = [
 var adverbs = [
   "absolutely",
   "awfully",
-  "bitching",
   "bloody",
   "completely",
   "decidedly",
@@ -184,6 +185,7 @@ var adverbs = [
   "immensely",
   "incredibly",
   "inordinately",
+  "insanely",
   "intensely",
   "mightily",
   "oh-so",
