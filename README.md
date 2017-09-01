@@ -3,6 +3,8 @@ Complimenter
 
 9 out of 10 doctors say you have practically radiant knees.
 
+This is a fork of [deoxxa/complimenter](http://github.com/deoxxa/complimenter) with a whole load of new words added.
+
 Overview
 --------
 
@@ -23,11 +25,11 @@ Installation
 
 Available via [npm](http://npmjs.org/):
 
-> $ npm install complimenter
+> $ npm install grantcodes/complimenter
 
 Or via git:
 
-> $ git clone git://github.com/deoxxa/complimenter.git node_modules/complimenter
+> $ git clone git://github.com/grantcodes/complimenter.git node_modules/complimenter
 
 License
 -------
