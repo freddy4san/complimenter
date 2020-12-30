@@ -5,14 +5,14 @@ var finalTemplates = [
 
 var templates = [
   function() { return "9 out of 10 doctors say " + getFinalTemplate(); },
-  function() { return "i can tell " + getFinalTemplate(); },
-  function() { return "i can't believe " + getFinalTemplate(); },
-  function() { return "i must say: " + getFinalTemplate(); },
-  function() { return "i reckon " + getFinalTemplate(); },
-  function() { return "i think " + getFinalTemplate(); },
-  function() { return "i've always thought " + getFinalTemplate(); },
-  function() { return "i've heard " + getFinalTemplate(); },
-  function() { return "it's true, " + getFinalTemplate(); },
+  function() { return "I can tell " + getFinalTemplate(); },
+  function() { return "I can't believe " + getFinalTemplate(); },
+  function() { return "I must say: " + getFinalTemplate(); },
+  function() { return "I reckon " + getFinalTemplate(); },
+  function() { return "I think " + getFinalTemplate(); },
+  function() { return "I've always thought " + getFinalTemplate(); },
+  function() { return "I've heard " + getFinalTemplate(); },
+  function() { return "It's true, " + getFinalTemplate(); },
   function() { return "people say " + getFinalTemplate(); },
   function() { return "they say " + getFinalTemplate(); },
 ].concat(finalTemplates);
